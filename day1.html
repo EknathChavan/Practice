@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px;
+            border-bottom: 2px solid grey;
+            position: fixed;
+            background: white;
+        }
+
+        .abc {
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        span {
+            margin-left: 20px;
+        }
+
+        .INP {
+            margin-left: 200px;
+            margin-top: 10px;
+        }
+
+        #login {
+            margin-right: 30px;
+            margin-top: 10px;
+        }
+
+        main {
+            display: flex;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+        }
+
+        .heading {
+            color: yellow;
+        }
+
+        footer>div {
+            margin-left: 40px;
+            margin-top: 30px;
+        }
+
+        .left {
+            margin-left: 150px;
+        }
+
+        .f-inp {
+            border-color: yellow;
+            background: transparent;
+            color: red;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+        }
+
+        button {
+            background: yellow;
+            color:red;
+            padding: 3px;
+            border:none;
+        }
+
+        .margin>div {
+            margin-top: 7px;
+        }
+        .footer-box{
+            display: flex;
+            
+        }
+        .heading1{
+            color:rgb(206, 226, 23);
+            padding: 5px;
+            font-size: larger;
+        }
+         .footer-1{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+         }
+         .heading2{
+            color:aqua;
+            padding: 5px;
+            font-size: larger;
+         }
+         .border{
+            border-top: 3px solid red;
+         }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo-bday-y24.svg" alt="">
+        </div>
+        <div class="abc">
+            <span>men</span>
+            <span>women</span>
+            <span>mobile covers</span>
+        </div>
+        <div>
+            <input class="INP" type="text" placeholder="search........">
+        </div>
+        <div id="login">
+            login
+        </div>
+    </header>
+    <section>
+        <main>
+            <img width="620" height="500"
+                src="https://images.bewakoof.com/uploads/grid/app/Birthday-Bash-Sale-SelectionPage-Desktop-Ends-12-April-Men-slice-1712200136.jpg"
+                alt="">
+            <img width="620" height="500"
+                src="https://images.bewakoof.com/uploads/grid/app/Birthday-Bash-Sale-SelectionPage-Desktop-Ends-12-April-Women-slice-1712200136.jpg"
+                alt="">
+        </main>
+    </section>
+    <footer>
+        <div class="footer-box">
+            <div class="margin">
+                <div class="heading">CUSTOMER SERVICE</div>
+                <div>Contact Us</div>
+                <div>Track Order</div>
+                <div>Return Order</div>
+                <div>Cancel Order</div>
+            </div>
+            <div class="left margin">
+                <div class="heading">COMPANY</div>
+                <div>About Us</div>
+                <div>We're Hiring</div>
+                <div>Terms & Conditions</div>
+                <div> Privacy Policy</div>
+                <div>Blog</div>
+            </div>
+            <div class="left margin">
+                <div class="heading">CONNECT WITH US </div>
+                <div>4.7M People Like this</div>
+                <div>1M Followers</div>
+            </div>
+            <div class="left margin">
+                <div class="heading">KEEP UP TO DATE</div>
+                <div><input type="text" placeholder="Enter Email" class="f-inp"><button>SUBSCRIBE</button></div>
+            </div>
+        </div>
+
+        <div class="border"></div>
+
+        <div class="footer-1">
+            <div>
+                <div class="heading1">MEN'S CLOTHING</div>
+                <div>Top Wear</div>
+                <div>Men's New Arrivals</div>
+                <div>Men's T-Shirts</div>
+                <div> Men's Hoodies & Sweatshirts</div>
+                <div>Oversized T-Shirts for Men</div>
+                <div>Men's Long Sleeve T-shirts</div>
+                <div>Men's Half Sleeve T-Shirts</div>
+                <div>Men's Printed T-shirts</div>
+                <div> Men's Plain T-shirts</div>
+                <div>Men's Vests</div>
+             </div>
+             <div>
+                 <div class="heading1">WOMEN'S CLOTHING</div>
+                 <div>Women's Top Wear</div>
+                 <div> Women's Plus Size Store</div>
+                 <div> Women's New Arrivals</div>
+                 <div>Women's T-Shirts</div>
+                 <div>Women's Hoodies & Sweatshirts</div>
+                 <div> Women's Dresses</div>
+                 <div> Women's 3/4 Sleeve T-Shirts</div>
+                 <div> Women's Kurtis</div>
+                 <div>Women's Combo T-Shirts</div>
+                 <div>Women's Nightwear</div>
+             </div>
+             <div>
+             <div class="heading1">MOBILE COVERS</div>
+               <div>Brand</div>
+               <div>Apple</div>
+               <div>Realme</div>
+               <div>Samsung</div>
+               <div>Samsung</div>
+               <div>Xiaomi</div>
+               <div>Oneplus</div>
+               <div>Vivo</div>
+               <div>Karbon</div>
+            </div>
+            <div>
+                <div class="heading2">FANBOOK</div>
+                <div class="heading2">OFFERS</div>
+                <div class="heading2">SITEMAP</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
